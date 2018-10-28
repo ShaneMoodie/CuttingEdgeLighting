@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="~/Views/Home/Index.cshtml">
+                <img src="~/Content/Pictures/CuttingEdgeWhite.png" style=" width: 200px; height: 50px;" />
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="#" class="nav-item">Electrical</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">Lighting</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">Energy</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">National Accounts</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">Contact Us</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">Service Request</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="nav-item">Careers</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
