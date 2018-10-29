@@ -6,6 +6,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Content/Menu.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -25,7 +26,7 @@
                             <li><a href="#">Option #3</a></li>
                         </ul>
                     </div>
-               </div>
+                </div>
             </li>
             <li>
                 <a href="#" class="nav-item">Lighting</a>
@@ -88,6 +89,18 @@
                 </div>
             </li>
             <li>
+                <a href="#" class="nav-item">New Vendor</a>
+                <div class="nav-content">
+                    <div class="nav-sub">
+                        <ul>
+                            <li><a href="#">Option #1</a></li>
+                            <li><a href="#">Option #2</a></li>
+                            <li><a href="#">Option #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
                 <a href="#" class="nav-item">Careers</a>
                 <div class="nav-content">
                     <div class="nav-sub">
@@ -100,17 +113,32 @@
                 </div>
             </li>
         </ul>
+
+        <select>
+            <option value="">Go To</option>
+            <option value="">Electrical</option>
+            <option value="">Lighting</option>
+            <option value="">Energy</option>
+            <option value="">National Accounts</option>
+            <option value="">Contact Us</option>
+            <option value="">Service Request</option>
+            <option value="">New Vendor</option>
+            <option value="">Careers</option>
+        </select>
     </nav>
 
 
-
+    <div id="grad"></div>
 
 
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <footer class="foot">
+            <div>
+                <span>&copy; @DateTime.Now.Year - My ASP.NET Application</span>
+                <span class="developerlink">Website Design By: <a href="https://shanemoodie.github.io/">Shane Moodie</a></span>
+            </div>
         </footer>
     </div>
 
