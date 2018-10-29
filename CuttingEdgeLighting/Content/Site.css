@@ -36,18 +36,20 @@ textarea {
 
 .navbar {
     width: 100%;
-    height: 70px;
+    height: 100px;
     background-color: #000000;
 }
 
 .logo {
     float: left;
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .navbar ul {
+    font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     float: left;
     list-style-type: none;
 }
@@ -59,7 +61,7 @@ textarea {
 .nav-item {
     display: block;
     padding: 15px 40px;
-    height: 68px;
+    height: 79px;
     line-height: 40px;
     color: white;
     text-decoration: none;
@@ -81,7 +83,7 @@ textarea {
     background-color: #000000;
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -89,6 +91,7 @@ textarea {
 .nav-sub a {
     color: white;
     padding: 12px 16px;
+    padding-right: 150px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -122,7 +125,7 @@ nav select {
 }
 
 #grad {
-    height: 800px;
+    height: 35%;
     width: 100%;
     background-color: white;
     background-image: linear-gradient(white, darkred);
@@ -132,19 +135,40 @@ nav select {
     float: right;
 }
 
+.foot {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
 /*Home Page CSS*/
+.container {
+    padding-bottom: 25px;
+}
+
+.columns {
+    height: 0;
+    margin: auto;
+    padding: 10px;
+}
+
 .col-left {
+    padding: 0 10px;
+    border-style: double;
+    border-width: thick;
+    float: left;
     width: 50%;
-    margin: 10px;
-    padding: 20px;
+    height: 400px;
     background-image: url('Pictures/TextBackground.jpg');
     color: black;
 }
 
 .col-right {
-    width: 50%;
-    margin: 10px;
-    padding: 20px;
+    padding: 0 10px;
+    border-style: double;
+    border-width: thick;
+    float: right;
+    width: 30%;
+    height: 400px;
     background-image: url('Pictures/TextBackground.jpg');
     color: black;
 }
