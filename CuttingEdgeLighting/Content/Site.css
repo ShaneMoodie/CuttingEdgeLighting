@@ -44,7 +44,7 @@ textarea {
     list-style-type: none;
 }
 
-.navbar ul li {
+.navbar > ul > li {
     float: left;
 }
 
