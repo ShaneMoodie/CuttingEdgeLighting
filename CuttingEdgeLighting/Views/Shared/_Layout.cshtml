@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="~/Views/Home/Index.cshtml">
+            <a href="/Home/Index">
                 <img src="~/Content/Pictures/CuttingEdgeWhite.png" style=" width: 275px; height: 75px;" />
             </a>
         </div>
@@ -53,7 +53,7 @@
                 </div>
             </li>
             <li>
-                <a href="#" class="nav-item">National Accounts</a>
+                <a href="" class="nav-item">National Accounts</a>
                 <div class="nav-content">
                     <div class="nav-sub">
                         <ul>
@@ -65,40 +65,13 @@
                 </div>
             </li>
             <li>
-                <a href="#" class="nav-item">Contact Us</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li><a href="#">Option #1</a></li>
-                            <li><a href="#">Option #2</a></li>
-                            <li><a href="#">Option #3</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <a href="/Home/Contact" class="nav-item">Contact Us</a>
             </li>
             <li>
                 <a href="#" class="nav-item">Service Request</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li><a href="#">Option #1</a></li>
-                            <li><a href="#">Option #2</a></li>
-                            <li><a href="#">Option #3</a></li>
-                        </ul>
-                    </div>
-                </div>
             </li>
             <li>
                 <a href="#" class="nav-item">New Vendor</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li><a href="#">Option #1</a></li>
-                            <li><a href="#">Option #2</a></li>
-                            <li><a href="#">Option #3</a></li>
-                        </ul>
-                    </div>
-                </div>
             </li>
             <li>
                 <a href="#" class="nav-item">Careers</a>
@@ -126,7 +99,7 @@
             <option value="">Careers</option>
         </select>
     </nav>
-
+    
     <div class="container body-content">
         @RenderBody()
         <footer class="foot">
