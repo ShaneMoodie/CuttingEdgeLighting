@@ -204,6 +204,7 @@ nav select {
     width: 49%;
     float: left;
 }
+
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
@@ -232,6 +233,54 @@ nav select {
     }
 }
 
+/*Lighting/Electrical/Energy/Service Request Menus*/
+.servColumns {
+    display: grid;
+    margin: 0 auto;
+    width: 35%;
+}
+
+
+
+.col-left {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #323438;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+.col-right {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #323438;
+    padding: 10px;
+}
+
+label {
+    color: black;
+}
+
+span {
+    color: white;
+}
+
+.commentText {
+    background-color: #323438;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 35%;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
 /*Contact Page*/
 .contactinfo {
     background-image: url('Pictures/TextBackground.jpg');
@@ -246,6 +295,10 @@ nav select {
     width: 30%;
     margin: 25px auto;
     padding: 20px;
+}
+
+.mobilesOnly {
+    visibility: hidden;
 }
 
 /*New Vendor Page*/
