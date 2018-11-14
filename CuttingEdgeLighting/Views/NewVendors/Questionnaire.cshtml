@@ -1,0 +1,127 @@
+﻿@model IEnumerable<CuttingEdgeLighting.Models.NewVendor>
+
+@{
+    ViewBag.Title = "Questionnaire";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <div class="newVendorLogo">
+        <img src="~/Content/Pictures/CuttingEdgeBlack.png" />
+    </div>
+    <div class="newVendorIntro">
+        <p>Thank you for your interest in a partnership with Cutting Edge Lighting and Controls. Please complete the brief informational questionnaire below to ensure that our records are current. Please feel free to ask questions or submit comments in the space provided below.</p>
+        <br />
+    </div>
+    <div class="questionnaireForm">
+        <form>
+            <br />
+            <div class="bold">
+                Basic Information:<br />
+                <br />
+            </div>
+            Business Name:
+            <input type="text" name="businessName" /><br />
+            <br />
+            Phone Number:
+            <input type="text" name="phoneNumber" /><br />
+            <br />
+            Address:
+            <input type="text" name="address" /><br />
+            <br />
+            City:
+            <input type="text" name="city" /><br />
+            <br />
+            State:
+            <input type="text" name="city" /><br />
+            <br />
+            Zip Code:
+            <input type="text" name="zip" /><br />
+            <br />
+            Business email:
+            <input type="text" name="email" /><br />
+            <br />
+            <div class="bold">
+                Billing Address (If different from above):<br />
+                <br />
+            </div>
+            Address:
+            <input type="text" name="address" /><br />
+            <br />
+            City:
+            <input type="text" name="city" /><br />
+            <br />
+            State:
+            <input type="text" name="city" /><br />
+            <br />
+            Zip Code:
+            <input type="text" name="zip" /><br />
+            <br />
+            <div class="bold">
+                Remote Techs:<br />
+                <br />
+            </div>
+            Please provide any physical addresses below for where you have techs traveling from (other branches and or remote):
+            <input type="text" name="remote" /><br />
+            <br />
+            <div class="bold">
+                Licensing capabilities:<br />
+                <br />
+            </div>
+            Type of licenses and the states the licenses are active:
+            <input type="text" name="lic" /><br />
+            <br />
+            <div class="bold">
+                Mile radius your business/company will travel with flat rate for:<br />
+                <br />
+            </div>
+            Service calls:
+            <input type="text" name="servCallRad" /><br />
+            <br />
+            Projects:
+            <input type="text" name="proj" /><br />
+            <br />
+            Maintenance Calls:
+            <input type="text" name="main" /><br />
+            <br />
+            <div class="bold">
+                Typical hourly rates for:<br />
+                <br />
+            </div>
+            Lighting:
+            <input type="text" name="light" /><br />
+            <br />
+            Electrical:
+            <input type="text" name="elec" /><br />
+            <br />
+            Sign:
+            <input type="text" name="sign" /><br />
+            <br />
+            Control wiring installations:
+            <input type="text" name="wireInstall" /><br />
+            <br />
+            <div class="bold">
+                Additional Information:<br />
+                <br />
+            </div>
+            Please provide an explanation of past work completed and volume:<br /><br />
+            <input type="text" name="pastWork" /><br />
+            <br />
+            How many techs do you currently have with your company?
+            <input type="text" name="techNum" /><br />
+            <br />
+            How many years have you been in business?
+            <input type="text" name="years" /><br />
+            <br />
+            Does your business have any equipment? (lifts, bucket trucks, trenches, etc.) If yes, please provide pricing:
+            <input type="text" name="equip" /><br />
+            <br />
+            Does your business have the ability to pick up/ haul materials to job sites? Please explain below:<br /><br />
+            <input type="text" name="haul" /><br />
+            <br />
+            Additional comments/information:<br /><br />
+            <input type="text" name="comment" /><br />
+            <br />
+        </form>
+    </div>
+</body>
