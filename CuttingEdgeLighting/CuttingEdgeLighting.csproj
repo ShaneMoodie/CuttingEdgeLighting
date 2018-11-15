@@ -153,6 +153,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CareersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NewVendorsController.cs" />
     <Compile Include="Controllers\ServiceRequestController.cs" />
@@ -169,17 +170,20 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Menu.js" />
+    <Content Include="Content\Pictures\AtlantaLighting.jpg" />
     <Content Include="Content\Pictures\BluetoothLightThing.jpg" />
     <Content Include="Content\Pictures\CuttingEdgeBlack.png" />
     <Content Include="Content\Pictures\CuttingEdgeWhite.png" />
     <Content Include="Content\Pictures\elect-energy-conservation-pyramid-l.jpg" />
     <Content Include="Content\Pictures\Energy photo.jpg" />
     <Content Include="Content\Pictures\energy-management 2.jpg" />
+    <Content Include="Content\Pictures\greenBulb.jpeg" />
     <Content Include="Content\Pictures\ledscrossrailnews102918.jpg" />
     <Content Include="Content\Pictures\Logo.jpg" />
     <Content Include="Content\Pictures\Proj management.jpg" />
     <Content Include="Content\Pictures\TextBackground.jpg" />
     <Content Include="Content\Pictures\water-conservation-slide.jpg" />
+    <Content Include="Content\ResumeUpload.js" />
     <Content Include="Content\SlideshowJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -216,6 +220,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\NewVendors\Questionnaire.cshtml" />
     <Content Include="Views\ServiceRequest\ServiceRequest.cshtml" />
+    <Content Include="Views\Careers\Careers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

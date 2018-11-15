@@ -13,119 +13,131 @@
         <p>Thank you for your interest in a partnership with Cutting Edge Lighting and Controls. Please complete the brief informational questionnaire below to ensure that our records are current. Please feel free to ask questions or submit comments in the space provided below.</p>
         <br />
     </div>
-    <div class="questionnaireForm">
-        <form action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
-            <br />
+    <form class="questionnaire" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
+        <div class="bold">
+            <span>Basic Information:</span><br /><br />
+        </div>
+        <div class="col-left-one">
+            <label>
+                <span>* Business Name:</span><br />
+                <input type="text" name="Business Name" required />
+            </label><br /><br />
+            <label>
+                <span>* Phone Number:</span><br />
+                <input type="text" name="PhoneNumber" required />
+            </label><br /><br />
+            <label>
+                <span>* Business Email:</span><br />
+                <input type="text" name="BusinessEmail" required />
+            </label><br /><br />
+            <label>
+                <span>* Address:</span><br />
+                <input type="text" name="BusinessAddress" required />
+            </label><br /><br />
+        </div>
+        <div class="col-right-one">
+            <label>
+                <span>* City:</span><br />
+                <input type="text" name="City" required />
+            </label><br /><br />
+            <label>
+                <span>* State:</span><br />
+                <input type="text" name="State" required />
+            </label><br /><br />
+            <label>
+                <span>* Zip Code:</span><br />
+                <input type="text" name="ZipCode" required />
+            </label><br /><br />
+        </div>
+        <div class="remoteAdd">
+            <span>Please provide any physical addresses below for where you have techs travelling from (other branches and/or remote.)</span>
+            <textarea id="questText" name="RemoteTechs"></textarea><br /><br />
+        </div>
+        <div class="licCap">
             <div class="bold">
-                Basic Information:<br />
-                <br />
+                <span>Licensing Capabilities:</span><br /><br />
             </div>
-            Business Name:
-            <input type="text" name="businessName" />
-            &nbsp;&nbsp;
-            Phone Number:
-            <input type="text" name="phoneNumber" />
-            &nbsp;&nbsp;
-            Address:
-            <input type="text" name="address" /><br />
-            <br /><br />
-            City:
-            <input type="text" name="city" />
-            &nbsp;&nbsp;
-            State:
-            <input type="text" name="state" />
-            &nbsp;&nbsp;
-            Zip Code:
-            <input type="text" name="zip" /><br />
-            <br /><br />
-            Business email:
-            <input type="text" name="email" /><br />
-            <br />
+            <span>* Type of licenses and the states the licenses are active:</span>
+            <textarea id="questText" name="LicenseingCapabilities"></textarea><br /><br />
+        </div>
+        <div class="bold">
+            <span>Mile Radius Your Business/Company Will Travel With Flat Rate:</span><br /><br />
+        </div>
+        <div class="col-left-two">
+            <label>
+                <span>* Service Calls:</span><br />
+                <input type="text" name="ServiceCalls" required />
+            </label><br /><br />
+            <label>
+                <span>* Projects:</span><br />
+                <input type="text" name="Projects" required />
+            </label><br /><br />
+        </div>
+        <div class="col-right-two">
+            <label>
+                <span>* Maintenace:</span><br />
+                <input type="text" name="Maintenace" required />
+            </label><br /><br />
+        </div>
+        <div id="rates" class="bold">
+            <span>Typical Hourly Rates For:</span><br /><br />
+        </div>
+        <div class="col-left-three">
+            <label>
+                <span>* Lighting:</span><br />
+                <input type="text" name="Lighting" required />
+            </label><br /><br />
+            <label>
+                <span>* Sign:</span><br />
+                <input type="text" name="Sign" required />
+            </label><br /><br />
+        </div>
+        <div class="col-right-three">
+            <label>
+                <span>* Electrical:</span><br />
+                <input type="text" name="Electrical" required />
+            </label><br /><br />
+            <label>
+                <span>* Control Wiring Installation:</span><br />
+                <input type="text" name="ControlWiring" required />
+            </label><br /><br />
+        </div>
+        <div id="pastWork" class="bold">
+            <span>Please provide an explanation or past work completed and volume:</span>
+            <textarea id="questText" name="workVolume"></textarea><br /><br />
+        </div>
+        <div class="col-left-four">
             <div class="bold">
-                Billing Address (If different from above):<br />
-                <br />
+                <span>* How many techs do you currently have with your company?</span><br />
+                <input type="text" name="#OfTechs" required /><br /><br />
             </div>
-            Address:
-            <input type="text" name="BillAddress" />
-            &nbsp;&nbsp;
-            City:
-            <input type="text" name="BillCity" />
-            &nbsp;&nbsp;
-            State:
-            <input type="text" name="BillState" /><br />
-            <br />
-            Zip Code:
-            <input type="text" name="BillZip" />
-            <br /><br />
+        </div>
+        <div class="col-right-four">
             <div class="bold">
-                Remote Techs:<br />
-                <br />
+                <span>* How many years have you been in business?</span><br />
+                <input type="text" name="YearsInBusiness" required /><br /><br />
             </div>
-            Please provide any physical addresses below for where you have techs traveling from (other branches and or remote):<br /><br />
-            <input type="text" name="RemoteTechAddress" /><br />
+        </div>
+        <div class="additionalInfo">
+            <label>
+                <span>* Does your business have any equipment (lifts, bucket trucks, trenches, ect.)? If yes, please provide pricing.</span>
+                <textarea id="questText" name="Equipment?" required></textarea><br />
+            </label><br /><br />
+            <label>
+                <span>* Does your business have the ability to pick up/haul materials to job sites? Please explain below.</span>
+                <textarea id="questText" name="CanHaul?" required></textarea><br />
+            </label><br /><br />
+            <label>
+                <span>Additioinal comments/information:</span>
+                <textarea id="questText" name="comment"></textarea><br />
+            </label><br /><br />
+        </div>
+        <div class="asterisk">
+            <span>* Indicates a required field.</span><br />
+        </div>
+        <div class="formSubmitButton2">
+            <input type="submit" value="Submit" /><br />
             <br />
-            <div class="bold">
-                Licensing capabilities:<br />
-                <br />
-            </div>
-            Type of licenses and the states the licenses are active:
-            <input type="text" name="Licenses" /><br />
-            <br />
-            <div class="bold">
-                Mile radius your business/company will travel with flat rate for:<br />
-                <br />
-            </div>
-            Service calls:
-            <input type="text" name="servCallRadius" />
-            &nbsp;&nbsp;
-            Projects:
-            <input type="text" name="ProjectsRadius" />
-            &nbsp;&nbsp;
-            Maintenance Calls:
-            <input type="text" name="MaintenanceRadius" />
-            <br /><br />
-            <div class="bold">
-                Typical hourly rates for:<br />
-                <br />
-            </div>
-            Lighting:
-            <input type="text" name="LightingRate" />
-            &nbsp;&nbsp;
-            Electrical:
-            <input type="text" name="ElectricalRate" />
-            &nbsp;&nbsp;
-            Sign:
-            <input type="text" name="SignRate" /><br />
-            <br />
-            Control wiring installations:
-            <input type="text" name="WireInstallRate" /><br />
-            <br />
-            <div class="bold">
-                Additional Information:<br />
-                <br />
-            </div>
-            Please provide an explanation of past work completed and volume:<br /><br />
-            <input type="text" name="pastWork" /><br />
-            <br />
-            How many techs do you currently have with your company?
-            <input type="text" name="NumOfTech?" /><br />
-            <br />
-            How many years have you been in business?
-            <input type="text" name="YearsInBusiness" /><br />
-            <br />
-            Does your business have any equipment? (lifts, bucket trucks, trenches, etc.) If yes, please provide pricing:
-            <input type="text" name="HaveEquipment?" /><br />
-            <br />
-            Does your business have the ability to pick up/ haul materials to job sites? Please explain below:<br /><br />
-            <input type="text" name="CanHaul?" /><br />
-            <br />
-            Additional comments/information:<br /><br />
-            <input type="text" name="comment" /><br />
-            <br />
-            <div class="questSubmitButton">
-                <input type="submit" value="Submit" /><br />
-                <br />
-            </div>
-        </form>
-    </div>
+        </div>
+    </form>
 </body>
