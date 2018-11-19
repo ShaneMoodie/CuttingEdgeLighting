@@ -155,6 +155,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CareersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LightingController.cs" />
     <Compile Include="Controllers\NewVendorsController.cs" />
     <Compile Include="Controllers\ServiceRequestController.cs" />
     <Compile Include="Global.asax.cs">
@@ -169,6 +170,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\LightingPageText.js" />
     <Content Include="Content\Menu.js" />
     <Content Include="Content\Pictures\AtlantaLighting.jpg" />
     <Content Include="Content\Pictures\BluetoothLightThing.jpg" />
@@ -183,7 +185,7 @@
     <Content Include="Content\Pictures\Proj management.jpg" />
     <Content Include="Content\Pictures\TextBackground.jpg" />
     <Content Include="Content\Pictures\water-conservation-slide.jpg" />
-    <Content Include="Content\ResumeUpload.js" />
+    <Content Include="Content\ServicesQuote.js" />
     <Content Include="Content\SlideshowJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -221,6 +223,7 @@
     <Content Include="Views\NewVendors\Questionnaire.cshtml" />
     <Content Include="Views\ServiceRequest\ServiceRequest.cshtml" />
     <Content Include="Views\Careers\Careers.cshtml" />
+    <Content Include="Views\Lighting\Lighting.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -136,6 +136,10 @@ nav select {
     padding-top: 10px;
 }
 
+#hyperlink {
+    color: darkred;
+}
+
 /*Home Page CSS*/
 .fat-footer {
     margin-bottom: 50px;
@@ -233,8 +237,100 @@ nav select {
     }
 }
 
-/*Lighting/Electrical/Energy/Service Request Menus*/
+/*Service Pages CSS*/
+.services {
+    display: grid;
+    width: 100%;
+    margin: 0 600px;
+    margin-bottom: 10px;
+}
+
+.side-bar {
+    grid-column: 1;
+    grid-row: 1;
+    background: black;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 258px;
+    margin: 30px 0;
+    margin-right: 25px;
+}
+
+ul.side-bar-list {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+}
+
+.side-bar-list li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.side-bar-list li:hover {
+    color: white;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.side-bar-list li:focus {
+    color: white;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.side-bar ul {
+    list-style-type: none;
+}
+
+.side-bar-item {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.side-bar-item:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar-item:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.services-content {
+    grid-column: 2;
+    grid-row: 1;
+    background: rgba(90, 90, 90, 0.6);
+    border: 5px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
 .serviceForm {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-column-gap: 20px;
+    width: 30%;
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+/*Lighting/Electrical/Energy/Service Request Menus*/
+.serviceReqForm {
     background: rgba(90, 90, 90, 0.6);
     border: 5px solid black;
     border-radius: 5px;
@@ -279,11 +375,9 @@ textarea[name=comments] {
 
 /*Contact Page*/
 .contactinfo {
-    background-image: url('Pictures/TextBackground.jpg');
-    border-style: solid;
-    border-width: 5px;
+    background: rgba(90, 90, 90, 0.6);
+    border: 5px solid black;
     border-radius: 5px;
-    color: black;
     box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
@@ -291,9 +385,6 @@ textarea[name=comments] {
     width: 30%;
     margin: 25px auto;
     padding: 20px;
-}
-
-.mobilesOnly {
 }
 
 /*New Vendor Page*/

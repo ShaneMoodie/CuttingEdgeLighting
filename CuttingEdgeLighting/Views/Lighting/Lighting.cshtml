@@ -1,0 +1,70 @@
+﻿
+<body> 
+    <div class="services">
+        <div class="side-bar">
+            <ul class="side-bar-list">
+                <li><a class="side-bar-item" href="#" onclick="changeTextOverview(); return false;">Overview</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextInterior(); return false;">Interior Lighting</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextExterior(); return false;">Exterior Lighitng</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextQuote(); return false;">Request a Quote</a></li>
+            </ul>
+        </div>
+        <div class="services-content">
+            <div id="overview">
+                <h1>Lighting Service:</h1><br />
+                <p>At Cutting Edge Lighting from dusk to dawn, inside or outside, our lighting and electrical service specialists will accommodate all of your lighting maintenance needs. Cutting Edge Lighting has the technical know-how and staff to install and maintain your lighting and keep it performing to manufacturer’s specifications.</p>
+            </div>
+            <div id="quote" style="display: none;"
+            <h1>Request a Quote</h1>
+            <form class="serviceForm" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
+                <div class="col-left">
+                    <label>
+                        <span>* Name:</span><br />
+                        <input type="text" name="LightingRequestName" required />
+                    </label><br />
+                    <label>
+                        <span>* Email:</span><br />
+                        <input type="text" name="LightingRequestEmail" required />
+                    </label><br />
+                    <label>
+                        <span>Company:</span><br />
+                        <input type="text" name="LightingRequestCompany" />
+                    </label><br />
+                    <label>
+                        <span>Address:</span><br />
+                        <input type="text" name="LightingRequestAddress" />
+                    </label><br />
+                </div>
+                <div class="col-right">
+                    <label>
+                        <span>City:</span><br />
+                        <input type="text" name="LightingRequestCity" />
+                    </label><br />
+                    <label>
+                        <span>State:</span><br />
+                        <input type="text" name="LightingRequestState" />
+                    </label><br />
+                    <label>
+                        <span>Zip Code:</span><br />
+                        <input type="text" name="LightingRequestZip" />
+                    </label><br />
+                    <label>
+                        <span>Phone Number:</span><br />
+                        <input type="text" name="LightingRequestNumber" />
+                    </label><br />
+                </div>
+                <label class="commentText">
+                    <span>Comments:</span><br />
+                    <textarea name="comments"></textarea><br />
+                </label>
+                <div class="formSubmitButton">
+                    <input type="submit" value="Submit" /><br />
+                    <br />
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <script src="~/Content/LightingPageText.js"></script>
+    <script src="~/Content/ServicesQuote.js"></script>
+</body> 

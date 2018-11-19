@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1920, initial-scale=1.0, maximum-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -65,15 +65,7 @@
                 <a href="/NewVendors/Questionnaire" class="nav-item">New Vendor</a>
             </li>
             <li>
-                <a href="#" class="nav-item">Careers</a>
-                <div class="nav-content">
-                    <div class="nav-sub">
-                        <ul>
-                            <li><a href="#">Available Jobs</a></li>
-                            <li><a href="/Careers/Careers">Submit Your Resume</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <a href="/Careers/Careers" class="nav-item">Careers</a>
             </li>
         </ul>
 
@@ -94,7 +86,7 @@
         @RenderBody()
         <footer class="foot">
             <div>
-                <span>&copy; @DateTime.Now.Year - Cutting Edge Lighting - Website Design By: <a href="https://shanemoodie.github.io/">Shane Moodie</a></span>
+                <span>&copy; @DateTime.Now.Year - Cutting Edge Lighting - Website Design By: <a href="https://shanemoodie.github.io/" style="color: black;">Shane Moodie</a></span>
             </div>
         </footer>
     </div>
