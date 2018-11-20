@@ -1,53 +1,63 @@
 ﻿
 
 <body>
-    <div class="formSideBar">
-
+    <div class="services">
+        <div class="side-bar">
+            <ul class="side-bar-list">
+                <li><a class="side-bar-item" href="#" onclick="changeTextOverview(); return false;">Overview</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextInterior(); return false;">Interior Lighting</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextExterior(); return false;">Exterior Lighitng</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextCoverage(); return false;">Coverage Area</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextQuote(); return false;">Request a Quote</a></li>
+            </ul>
+        </div>
+        <div class="services-content">
+            <form class="serviceReqForm" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
+                <div class="col-left">
+                    <label>
+                        <span>* Name:</span><br />
+                        <input type="text" name="ServiceRequestName" required />
+                    </label><br />
+                    <label>
+                        <span>* Email:</span><br />
+                        <input type="text" name="ServiceRequestEmail" required />
+                    </label><br />
+                    <label>
+                        <span>Company:</span><br />
+                        <input type="text" name="ServiceRequestCompany" />
+                    </label><br />
+                    <label>
+                        <span>Address:</span><br />
+                        <input type="text" name="ServiceRequestAddress" />
+                    </label><br />
+                </div>
+                <div class="col-right">
+                    <label>
+                        <span>City:</span><br />
+                        <input type="text" name="ServiceRequestCity" />
+                    </label><br />
+                    <label>
+                        <span>State:</span><br />
+                        <input type="text" name="ServiceRequestState" />
+                    </label><br />
+                    <label>
+                        <span>Zip Code:</span><br />
+                        <input type="text" name="ServiceRequestZip" />
+                    </label><br />
+                    <label>
+                        <span>Phone Number:</span><br />
+                        <input type="text" name="ServiceRequestNumber" />
+                    </label><br />
+                </div>
+                <label class="commentText">
+                    <span>Comments:</span><br />
+                    <textarea name="comments"></textarea><br />
+                </label>
+                <div class="formSubmitButton">
+                    <input type="submit" value="Submit" /><br />
+                    <br />
+                </div>
+            </form>
+        </div>
     </div>
-    <form class="serviceReqForm" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
-        <div class="col-left">
-            <label>
-                <span>* Name:</span><br />
-                <input type="text" name="ServiceRequestName" required />
-            </label><br />
-            <label>
-                <span>* Email:</span><br />
-                <input type="text" name="ServiceRequestEmail" required />
-            </label><br />
-            <label>
-                <span>Company:</span><br />
-                <input type="text" name="ServiceRequestCompany" />
-            </label><br />
-            <label>
-                <span>Address:</span><br />
-                <input type="text" name="ServiceRequestAddress" />
-            </label><br />
-        </div>
-        <div class="col-right">
-            <label>
-                <span>City:</span><br />
-                <input type="text" name="ServiceRequestCity" />
-            </label><br />
-            <label>
-                <span>State:</span><br />
-                <input type="text" name="ServiceRequestState" />
-            </label><br />
-            <label>
-                <span>Zip Code:</span><br />
-                <input type="text" name="ServiceRequestZip" />
-            </label><br />
-            <label>
-                <span>Phone Number:</span><br />
-                <input type="text" name="ServiceRequestNumber" />
-            </label><br />
-        </div>
-        <label class="commentText">
-            <span>Comments:</span><br />
-            <textarea name="comments"></textarea><br />
-        </label>
-        <div class="formSubmitButton">
-            <input type="submit" value="Submit" /><br />
-            <br />
-        </div>
-    </form>
 </body>

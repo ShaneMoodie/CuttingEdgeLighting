@@ -182,10 +182,10 @@
     <Content Include="Content\Pictures\greenBulb.jpeg" />
     <Content Include="Content\Pictures\ledscrossrailnews102918.jpg" />
     <Content Include="Content\Pictures\Logo.jpg" />
+    <Content Include="Content\Pictures\Map.jpg" />
     <Content Include="Content\Pictures\Proj management.jpg" />
     <Content Include="Content\Pictures\TextBackground.jpg" />
     <Content Include="Content\Pictures\water-conservation-slide.jpg" />
-    <Content Include="Content\ServicesQuote.js" />
     <Content Include="Content\SlideshowJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
