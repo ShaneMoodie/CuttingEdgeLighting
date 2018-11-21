@@ -240,8 +240,8 @@ nav select {
 /*Service Pages CSS*/
 .services {
     display: grid;
-    width: 100%;
-    margin: 0 600px;
+    width: 35%;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 
@@ -254,10 +254,9 @@ nav select {
     border-top: 5px solid white;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 100%;
+    width: 200px;
     height: 310px;
     margin: 30px 0;
-    margin-right: 25px;
 }
 
 ul.side-bar-list {
@@ -314,7 +313,7 @@ ul.side-bar-list {
     border: 5px solid black;
     border-radius: 5px;
     padding-left: 10px;
-    width: 30%;
+    width: 515px;
     margin-bottom: 5px;
 }
 
@@ -328,9 +327,7 @@ ul.side-bar-list {
     display: grid;
     grid-column-gap: 20px;
     width: 30%;
-    margin: 20px auto;
-    padding: 10px;
-    padding-left: 20px;
+    margin: 20px 0;
 }
 
 /*Lighting/Electrical/Energy/Service Request Menus*/
