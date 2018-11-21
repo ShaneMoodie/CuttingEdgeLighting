@@ -154,6 +154,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CareersController.cs" />
+    <Compile Include="Controllers\ElectricalController.cs" />
+    <Compile Include="Controllers\EnergyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LightingController.cs" />
     <Compile Include="Controllers\NewVendorsController.cs" />
@@ -170,6 +172,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\EnergyPage.js" />
     <Content Include="Content\LightingPageText.js" />
     <Content Include="Content\Menu.js" />
     <Content Include="Content\Pictures\AtlantaLighting.jpg" />
@@ -224,6 +227,8 @@
     <Content Include="Views\ServiceRequest\ServiceRequest.cshtml" />
     <Content Include="Views\Careers\Careers.cshtml" />
     <Content Include="Views\Lighting\Lighting.cshtml" />
+    <Content Include="Views\Electrical\Electrical.cshtml" />
+    <Content Include="Views\Energy\Energy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,78 @@
+﻿<body>
+    <div class="services">
+        <div class="side-bar">
+            <ul class="side-bar-list">
+                <li><a class="side-bar-item" href="#" onclick="changeTextOverview(); return false;">Overview</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextEMS(); return false;">What is EMS?</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextCount(); return false;">Count on C.E.L</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextCoverage(); return false;">Coverage Area</a></li>
+                <li><a class="side-bar-item" href="#" onclick="changeTextQuote(); return false;">Request a Quote</a></li>
+            </ul>
+        </div>
+        <div class="services-content">
+            <div id="overview">
+                <h1>Lighting Service:</h1><br />
+                <p>At Cutting Edge Lighting from dusk to dawn, inside or outside, our lighting and electrical service specialists will accommodate all of your lighting maintenance needs. Cutting Edge Lighting has the technical know-how and staff to install and maintain your lighting and keep it performing to manufacturer’s specifications.</p>
+            </div>
+            <div id="coverageArea" style="display: none;">
+                <h1>Coverage Area:</h1>
+                <img class="mapImg" src="~/Content/Pictures/Map.jpg" style="width: 100%; height: 400px;" />
+                <br /><br />
+                <p>Cutting Edge Lighting has invested in technology and software to enable us to efficiently manage our multi-site clients anywhere and anytime. National retailers, property management companies and commercial businesses have and will continue to benefit from our single source solutions. </p>
+                <br />
+                <p>With numerous large warehouses strategically located and over 100 regional warehouses, we have the experience and ability to replicate our services in multiple locations across the US, Canada, and Puerto Rico. With electrical contractor’s licenses in all states, technicians located throughout the various regions and traveling crews, Cutting Edge Lighting is able to self-perform and manage thousands of subcontractors for all your lighting and electrical service needs nationwide for roll-outs and projects. With the customers budget in mind, we work with preferred industry partners in local markets to ensure national coverage at local rates.</p>
+            </div>
+            <div id="quote" style="display: none;">
+                <h1>Request a Quote</h1>
+                <form class="serviceForm" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
+                    <div class="col-left">
+                        <label>
+                            <span>* Name:</span><br />
+                            <input type="text" name="EnergyRequestName" required />
+                        </label><br />
+                        <label>
+                            <span>* Email:</span><br />
+                            <input type="text" name="EnergyRequestEmail" required />
+                        </label><br />
+                        <label>
+                            <span>Company:</span><br />
+                            <input type="text" name="EnergyRequestCompany" />
+                        </label><br />
+                        <label>
+                            <span>Address:</span><br />
+                            <input type="text" name="EnergyRequestAddress" />
+                        </label><br />
+                    </div>
+                    <div class="col-right">
+                        <label>
+                            <span>City:</span><br />
+                            <input type="text" name="EnergyRequestCity" />
+                        </label><br />
+                        <label>
+                            <span>State:</span><br />
+                            <input type="text" name="EnergyRequestState" />
+                        </label><br />
+                        <label>
+                            <span>Zip Code:</span><br />
+                            <input type="text" name="EnergyRequestZip" />
+                        </label><br />
+                        <label>
+                            <span>Phone Number:</span><br />
+                            <input type="text" name="EnergyRequestNumber" />
+                        </label><br />
+                    </div>
+                    <label class="commentText">
+                        <span>Comments:</span><br />
+                        <textarea name="comments"></textarea><br />
+                    </label>
+                    <div class="formSubmitButton">
+                        <input type="submit" value="Submit" /><br />
+                        <br />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/EnergyPage.js"></script>
+    <script src="~/Content/LightingPageText.js"></script>
+</body>
