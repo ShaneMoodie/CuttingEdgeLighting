@@ -181,6 +181,7 @@
     <Content Include="Content\Pictures\BluetoothLightThing.jpg" />
     <Content Include="Content\Pictures\CuttingEdgeBlack.png" />
     <Content Include="Content\Pictures\CuttingEdgeWhite.png" />
+    <Content Include="Content\Pictures\DistCenterLight.jpg" />
     <Content Include="Content\Pictures\elect-energy-conservation-pyramid-l.jpg" />
     <Content Include="Content\Pictures\Energy photo.jpg" />
     <Content Include="Content\Pictures\energy-management 2.jpg" />
@@ -188,6 +189,7 @@
     <Content Include="Content\Pictures\ledscrossrailnews102918.jpg" />
     <Content Include="Content\Pictures\Logo.jpg" />
     <Content Include="Content\Pictures\Map.jpg" />
+    <Content Include="Content\Pictures\NotWalmart.jpg" />
     <Content Include="Content\Pictures\Proj management.jpg" />
     <Content Include="Content\Pictures\water-conservation-slide.jpg" />
     <Content Include="Content\ProjectManagement.js" />
