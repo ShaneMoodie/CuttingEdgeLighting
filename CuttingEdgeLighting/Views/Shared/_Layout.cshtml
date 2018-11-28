@@ -11,13 +11,13 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="/Home/Index">
+            <a href="/Home/Home">
                 <img src="~/Content/Pictures/CuttingEdgeWhite.png" style=" width: 275px; height: 75px;" />
             </a>
         </div>
         <ul>
             <li>
-                <a href="#" class="nav-item">Electrical</a>
+                <a href="/Electrical/Electrical" class="nav-item">Electrical</a>
                 <div class="nav-content">
                     <div class="nav-sub">
                     </div>
@@ -60,7 +60,7 @@
         <select>
             <option value="">Menu</option>
             <option value="/Home/Index">Home</option>
-            <option value="">Electrical</option>
+            <option value="/Electrical/Electrical">Electrical</option>
             <option value="/Lighting/Lighting">Lighting</option>
             <option value="/Energy/Energy">Energy</option>
             <option value="/ProjectManagement/ProjectManagement">Project Management</option>
@@ -76,7 +76,7 @@
         @RenderBody()
         <footer class="foot">
             <div>
-                <span>&copy; @DateTime.Now.Year - Cutting Edge Lighting - Website Design By: <a href="https://shanemoodie.github.io/" style="color: black;">Shane Moodie</a></span>
+                <span>&copy; @DateTime.Now.Year - Cutting Edge Lighting - <a class="mobilesOnly" href="tel:3309986002" id="hyperlink2">330-998-6002</a><br />Website Design By: <a href="https://shanemoodie.github.io/" target="_blank" id="hyperlink2">Shane Moodie</a></span>
             </div>
         </footer>
     </div>
