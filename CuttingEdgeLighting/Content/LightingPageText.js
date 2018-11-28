@@ -7,7 +7,7 @@ function changeTextOverview() {
     jsCovArea.style.display = 'none';
     jsQuote.style.display = 'none';
     jsOverview.style.display = 'block';
-    jsOverview.innerHTML = '<h1>Lighting Service:</h1> <br /> <p> At Cutting Edge Lighting from dusk to dawn, inside or outside, our lighting and electrical service specialists will accommodate all of your lighting maintenance needs. Cutting Edge Lighting has the technical know-how and staff to install and maintain your lighting and keep it performing to manufacturer’s specifications.</p>';
+    jsOverview.innerHTML = '<h1>Lighting Services:</h1> <br /> <p> At Cutting Edge Lighting from dusk to dawn, inside or outside, our lighting and electrical service specialists will accommodate all of your lighting maintenance needs. Cutting Edge Lighting has the technical know-how and staff to install and maintain your lighting and keep it performing to manufacturer’s specifications.</p>';
 }
 function changeTextInterior() {
     jsCovArea.style.display = 'none';

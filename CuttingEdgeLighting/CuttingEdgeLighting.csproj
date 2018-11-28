@@ -159,6 +159,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LightingController.cs" />
     <Compile Include="Controllers\NewVendorsController.cs" />
+    <Compile Include="Controllers\ProjectManagementController.cs" />
     <Compile Include="Controllers\ServiceRequestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -189,6 +190,7 @@
     <Content Include="Content\Pictures\Proj management.jpg" />
     <Content Include="Content\Pictures\TextBackground.jpg" />
     <Content Include="Content\Pictures\water-conservation-slide.jpg" />
+    <Content Include="Content\ProjectManagement.js" />
     <Content Include="Content\SlideshowJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -229,6 +231,7 @@
     <Content Include="Views\Lighting\Lighting.cshtml" />
     <Content Include="Views\Electrical\Electrical.cshtml" />
     <Content Include="Views\Energy\Energy.cshtml" />
+    <Content Include="Views\ProjectManagement\ProjectManagement.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
