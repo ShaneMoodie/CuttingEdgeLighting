@@ -3,11 +3,11 @@
             <form class="serviceReqForm" action="mailto:carl@cuttingedgelighting.com" method="post" enctype="text/plain">
                 <div class="col-left">
                     <label>
-                        <span>* Name:</span><br />
+                        <span class="required">* </span><span>Name:</span><br />
                         <input type="text" name="ServiceRequestName" required />
                     </label><br />
                     <label>
-                        <span>* Email:</span><br />
+                        <span class="required">* </span><span>Email:</span><br />
                         <input type="text" name="ServiceRequestEmail" required />
                     </label><br />
                     <label>
@@ -17,6 +17,13 @@
                     <label>
                         <span>Address:</span><br />
                         <input type="text" name="ServiceRequestAddress" />
+                    </label><br />
+                    <label class="serviceType">
+                        <span class="required">* </span><span>Please choose what type of servicing you require:</span><br />
+                        <input type="radio" name="serviceType" value="Electrical"/> Electrical<br />
+                        <input type="radio" name="serviceType" value="Lighting"/> Lighting<br />
+                        <input type="radio" name="serviceType" value="Energy"/> Energy<br />
+                        <input type="radio" name="serviceType" value="Multiple"/> Multiple<br />
                     </label><br />
                 </div>
                 <div class="col-right">

@@ -13,33 +13,33 @@
         </div>
         <div class="col-left-one">
             <label>
-                <span>* Business Name:</span><br />
+                <span class="required">* </span><span>Business Name:</span><br />
                 <input type="text" name="Business Name" required />
             </label><br /><br />
             <label>
-                <span>* Phone Number:</span><br />
+                <span class="required">* </span><span>Phone Number:</span><br />
                 <input type="text" name="PhoneNumber" required />
             </label><br /><br />
             <label>
-                <span>* Business Email:</span><br />
+                <span class="required">* </span><span>Business Email:</span><br />
                 <input type="text" name="BusinessEmail" required />
             </label><br /><br />
             <label>
-                <span>* Address:</span><br />
+                <span class="required">* </span><span>Address:</span><br />
                 <input type="text" name="BusinessAddress" required />
             </label><br /><br />
         </div>
         <div class="col-right-one">
             <label>
-                <span>* City:</span><br />
+                <span class="required">* </span><span>City:</span><br />
                 <input type="text" name="City" required />
             </label><br /><br />
             <label>
-                <span>* State:</span><br />
+                <span class="required">* </span><span>State:</span><br />
                 <input type="text" name="State" required />
             </label><br /><br />
             <label>
-                <span>* Zip Code:</span><br />
+                <span class="required">* </span><span>Zip Code:</span><br />
                 <input type="text" name="ZipCode" required />
             </label><br /><br />
         </div>
@@ -51,7 +51,7 @@
             <div class="bold">
                 <span>Licensing Capabilities:</span><br /><br />
             </div>
-            <span>* Type of licenses and the states the licenses are active:</span>
+            <span class="required">* </span><span>Type of licenses and the states the licenses are active:</span>
             <textarea id="questText" name="LicenseingCapabilities"></textarea><br /><br />
         </div>
         <div class="bold">
@@ -59,18 +59,22 @@
         </div>
         <div class="col-left-two">
             <label>
-                <span>* Service Calls:</span><br />
+                <span class="required">* </span><span>Service Calls:</span><br />
                 <input type="text" name="ServiceCalls" required />
             </label><br /><br />
             <label>
-                <span>* Projects:</span><br />
+                <span class="required">* </span><span>Projects:</span><br />
                 <input type="text" name="Projects" required />
             </label><br /><br />
         </div>
         <div class="col-right-two">
             <label>
-                <span>* Maintenace:</span><br />
+                <span class="required">* </span><span>Maintenace:</span><br />
                 <input type="text" name="Maintenace" required />
+            </label><br /><br />
+            <label>
+                <span class="required">* </span><span>Travel Rate:</span><br />
+                <input type="text" name="TravelRate" required />
             </label><br /><br />
         </div>
         <div id="rates" class="bold">
@@ -78,17 +82,17 @@
         </div>
         <div class="col-left-three">
             <label>
-                <span>* Lighting:</span><br />
+                <span class="required">* </span><span>Lighting:</span><br />
                 <input type="text" name="Lighting" required />
             </label><br /><br />
             <label>
-                <span>* Sign:</span><br />
+                <span class="required">* </span><span>Sign:</span><br />
                 <input type="text" name="Sign" required />
             </label><br /><br />
         </div>
         <div class="col-right-three">
             <label>
-                <span>* Electrical:</span><br />
+                <span class="required">* </span><span>Electrical:</span><br />
                 <input type="text" name="Electrical" required />
             </label><br /><br />
             <label>
@@ -102,23 +106,23 @@
         </div>
         <div class="col-left-four">
             <div class="bold">
-                <span>* How many techs do you currently have with your company?</span><br />
+                <span class="required">* </span><span>How many techs do you currently have with your company?</span><br />
                 <input type="text" name="#OfTechs" required /><br /><br />
             </div>
         </div>
         <div class="col-right-four">
             <div class="bold">
-                <span>* How many years have you been in business?</span><br />
+                <span class="required">* </span><span>How many years have you been in business?</span><br />
                 <input type="text" name="YearsInBusiness" required /><br /><br />
             </div>
         </div>
         <div class="additionalInfo">
             <label>
-                <span>* Does your business have any equipment (lifts, bucket trucks, trenches, ect.)? If yes, please provide pricing.</span>
+                <span class="required">* </span><span>Does your business have any equipment (lifts, bucket trucks, trenches, ect.)? If yes, please provide pricing.</span>
                 <textarea id="questText" name="Equipment?" required></textarea><br />
             </label><br /><br />
             <label>
-                <span>* Does your business have the ability to pick up/haul materials to job sites? Please explain below.</span>
+                <span class="required">* </span><span>Does your business have the ability to pick up/haul materials to job sites? Please explain below.</span>
                 <textarea id="questText" name="CanHaul?" required></textarea><br />
             </label><br /><br />
             <label>
@@ -127,7 +131,7 @@
             </label><br /><br />
         </div>
         <div class="asterisk">
-            <span>* Indicates a required field.</span><br />
+            <span class="required">* </span><span>Indicates a required field.</span><br />
         </div>
         <div class="formSubmitButton2">
             <input type="submit" value="Submit" /><br />
