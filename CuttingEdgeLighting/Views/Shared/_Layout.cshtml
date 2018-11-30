@@ -15,6 +15,11 @@
                 <img src="~/Content/Pictures/CuttingEdgeWhite.png" style=" width: 275px; height: 75px;" />
             </a>
         </div>
+
+        <a href="#" class="nav-icon" tabindex="1">
+            <img src="~/Content/Pictures/menu-button.png" style="width: 30px; height: 30px;"/>
+        </a>
+
         <ul>
             <li>
                 <a href="/Electrical/Electrical" class="nav-item">Electrical</a>
@@ -56,20 +61,6 @@
                 <a href="/Careers/Careers" class="nav-item">Careers</a>
             </li>
         </ul>
-
-        <select>
-            <option value="">Menu</option>
-            <option value="/Home/Index">Home</option>
-            <option value="/Electrical/Electrical">Electrical</option>
-            <option value="/Lighting/Lighting">Lighting</option>
-            <option value="/Energy/Energy">Energy</option>
-            <option value="/ProjectManagement/ProjectManagement">Project Management</option>
-            <option value="">National Accounts</option>
-            <option value="/Home/Contact">Contact Us</option>
-            <option value="/ServiceRequest/ServiceRequest">Service Request</option>
-            <option value="/NewVendors/Questionnaire">New Vendor</option>
-            <option value="/Careers/Careers">Careers</option>
-        </select>
     </nav>
     
     <div class="container body-content">
@@ -80,7 +71,6 @@
             </div>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
